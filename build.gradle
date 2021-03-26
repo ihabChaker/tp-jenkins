@@ -78,3 +78,6 @@ slack {
 }
 publish.finalizedBy "publishToSlack"
 
+task wrapper(type: wrapper){
+    gradleversion: '5.6'
+}
